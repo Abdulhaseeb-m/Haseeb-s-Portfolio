@@ -51,3 +51,9 @@ function renderSkills() {
 
     document.querySelector('.js-skills').innerHTML = html;
 }    
+document.querySelector('.contact-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Thank you! Your message has been sent (demo, no backend).');
+  this.reset();
+});
+// This code initializes the skills section with icons and names from the icons array.
