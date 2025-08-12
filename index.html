@@ -80,7 +80,7 @@
 
   <section id="expertise" class="section">
     <div class="hero">
-      <h2>My Expertise</h2>
+      <h2>My Skills</h2>
     </div>
     <div class="grid js-skills"></div>
   </section>
@@ -122,51 +122,79 @@
   </section>
 
   <section id="contact">
-    <div class="hero">
-      <h2>Get In Touch</h2>
-      <h3>Contact Information</h3>
-
-      <div class="contact-info horizontal">
-        <div class="info-item">
-          <iconify-icon icon="mdi:email-outline"></iconify-icon>
-          <div class="info-content">
-            <span class="info-label">Email</span>
-            <a href="mailto:a.hmemon3@gmail.com">a.hmemon3@gmail.com</a>
-          </div>
-        </div>
-        <div class="info-item">
-          <iconify-icon icon="mdi:phone-outline"></iconify-icon>
-          <div class="info-content">
-            <span class="info-label">Phone</span>
-            <span>+92 313 6591721</span>
-          </div>
-        </div>
-        <div class="info-item">
-          <iconify-icon icon="mdi:map-marker-outline"></iconify-icon>
-          <div class="info-content">
-            <span class="info-label">Location</span>
-            <span>Hyderabad Sindh, Pakistan</span>
-          </div>
-        </div>
+  <div class="hero">
+    <h2>Get In Touch</h2>
+    
+     <!-- Contact Form -->
+    <h3 style="margin-top: 30px;">Send Me a Message</h3>
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
       </div>
-
-      <h3>Connect With Me</h3>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/abdul-haseeb-memon-78681625b" target="_blank">
-          <iconify-icon icon="cib:linkedin"></iconify-icon>
-        </a>
-        <a href="https://github.com/Abdulhaseeb-m" target="_blank">
-          <iconify-icon icon="garden:github-fill-16"></iconify-icon>
-        </a>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
       </div>
-    </div>
-  </section>
-
-
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+   
+  </div>
+</section>
 
   <footer>
-    <p>&copy; 2025 abdul haseeb | All Rights Reserved</p>
-  </footer>
+  <div class="footer-content">
+    
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <div class="info-item">
+        <iconify-icon icon="mdi:email-outline"></iconify-icon>
+        <div class="info-content">
+          <span class="info-label">Email</span>
+          <a href="mailto:a.hmemon3@gmail.com">a.hmemon3@gmail.com</a>
+        </div>
+      </div>
+      <div class="info-item">
+        <iconify-icon icon="mdi:phone-outline"></iconify-icon>
+        <div class="info-content">
+          <span class="info-label">Phone</span>
+          <span>+92 313 6591721</span>
+        </div>
+      </div>
+      <div class="info-item">
+        <iconify-icon icon="mdi:map-marker-outline"></iconify-icon>
+        <div class="info-content">
+          <span class="info-label">Location</span>
+          <span>Hyderabad Sindh, Pakistan</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/abdul-haseeb-memon-78681625b" target="_blank">
+        <iconify-icon icon="cib:linkedin"></iconify-icon>
+      </a>
+      <a href="https://github.com/Abdulhaseeb-m" target="_blank">
+        <iconify-icon icon="garden:github-fill-16"></iconify-icon>
+      </a>
+      <a href="https://www.facebook.com/abdulhaseeb.memon.16100?mibextid=LQQJ4d" target="_blank">
+        <iconify-icon icon="cib:facebook-f"></iconify-icon>
+      </a>
+      <a href="https://instagram.com/abdul_haseebmemon?igshid=NDk5N2NlZjQ=" target="_blank">
+        <iconify-icon icon="cib:instagram"></iconify-icon>
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <p>&copy; 2025 Abdul Haseeb | All Rights Reserved</p>
+  </div>
+</footer>
+
+<!-- Ensure Iconify is loaded -->
+<script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+<script src="portfolio-website.js"></script>
 
   <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
   <script type="module" src="portfolio-website.js"></script>
